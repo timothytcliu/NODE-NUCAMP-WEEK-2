@@ -53,7 +53,11 @@ In this assignment, you will add Mongoose Schemas and Models for the partners an
 
 2. **Test:** 
 > Use Postman to test each of your updated endpoints and verify that you receive the expected responses. Don't forget your MongoDB server must be running. 
+
 > Test `GET/POST/PUT/DELETE` requests to: `/partners` and `/partners/:partnerId`
+
 > For the `POST` request to `/partners/:partnerId`, make sure to send a JSON string in the body of the request. Use the sample partner document given in Task 1. 
+
 > For the `PUT` request to `/partners/:partnerId`, make sure to send the same document, but with at least one field changed so that you can verify an update has been made. 
+
 > Repeat the same steps for testing `/promotions` and `/promotions/:promotionId` endpoints, using the sample promotion document given in Task 2.
