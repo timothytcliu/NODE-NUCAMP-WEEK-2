@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node ./bin/www"
+    "start": "nodemon ./bin/www"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
@@ -14,5 +14,11 @@
     "mongoose": "^5.8.7",
     "mongoose-currency": "^0.2.0",
     "morgan": "~1.9.1"
+  },
+  "devDependencies": {
+    "cross-env": "^5.2.0",
+    "jest": "^24.8.0",
+    "nodemon": "^1.19.1",
+    "supertest": "^4.0.2"
   }
 }
