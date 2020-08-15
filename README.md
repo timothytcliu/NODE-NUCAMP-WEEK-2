@@ -11,8 +11,8 @@ In this assignment, you will add Mongoose Schemas and Models for the partners an
 
 ### Task 1: Create a Schema and Model for Partners
 
-1. **Model module:** In the nucampsiteServer/models folder, create a new file named partner.js.
-2. **Schema:** In this file, create a new Mongoose Schema named partnerSchema. Use this sample partner document given below as your guide:
+1. **Model module:** In the nucampsiteServer/models folder, create a new file named `partner.js`.
+2. **Schema:** In this file, create a new Mongoose Schema named `partnerSchema`. Use this sample partner document given below as your guide:
 ```javascript
 {
     "name": "Mongo Fly Shop",
@@ -29,8 +29,8 @@ In this assignment, you will add Mongoose Schemas and Models for the partners an
 
 ### Task 2: Create a Schema and Model for Promotions
 
-1. **Model module:** In the nucampsiteServer/models folder, create a new file named promotion.js.
-2. **Schema:** In this file, create a new Mongoose Schema named promotionSchema. Use this sample promotion document given below as your guide:
+1. **Model module:** In the nucampsiteServer/models folder, create a new file named `promotion.js`.
+2. **Schema:** In this file, create a new Mongoose Schema named `promotionSchema`. Use this sample promotion document given below as your guide:
 ```javascript
 {
     "name": "Mountain Adventure",
@@ -48,11 +48,12 @@ In this assignment, you will add Mongoose Schemas and Models for the partners an
 
 
 ## Task 3: Update the routers
-1. **Updates:** For both the partnerRouter and promotionRouter, update the response to each defined endpoint using the new Partner and Promotion Models, exactly as you did with the campsiteRouter in the final two exercises this week. 
+1. **Updates:** For both the `partnerRouter` and `promotionRouter`, update the response to each defined endpoint using the new `Partner` and `Promotion` Models, exactly as you did with the `campsiteRouter` in the final two exercises this week. 
 
 
-2. **Test:** Use Postman to test each of your updated endpoints and verify that you receive the expected responses. Don't forget your MongoDB server must be running. 
-Test `GET/POST/PUT/DELETE` requests to: `/partners` and `/partners/:partnerId`
-For the `POST` request to `/partners/:partnerId`, make sure to send a JSON string in the body of the request. Use the sample partner document given in Task 1. 
-For the `PUT` request to `/partners/:partnerId`, make sure to send the same document, but with at least one field changed so that you can verify an update has been made. 
-Repeat the same steps for testing `/promotions` and `/promotions/:promotionId` endpoints, using the sample promotion document given in Task 2.
+2. **Test:** 
+> Use Postman to test each of your updated endpoints and verify that you receive the expected responses. Don't forget your MongoDB server must be running. 
+> Test `GET/POST/PUT/DELETE` requests to: `/partners` and `/partners/:partnerId`
+> For the `POST` request to `/partners/:partnerId`, make sure to send a JSON string in the body of the request. Use the sample partner document given in Task 1. 
+> For the `PUT` request to `/partners/:partnerId`, make sure to send the same document, but with at least one field changed so that you can verify an update has been made. 
+> Repeat the same steps for testing `/promotions` and `/promotions/:promotionId` endpoints, using the sample promotion document given in Task 2.
